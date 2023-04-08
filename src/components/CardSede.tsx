@@ -8,9 +8,9 @@ interface CardSedeProps {
 }
 
 const CardSede: FC<CardSedeProps> = ({ name, telefonos }) => (
-  <Card className='w-full'>
-    <div className='h-full'>
-      <h3 className="text-xl md:text-2xl font-bold mb-4 leading-none">{name}</h3>
+  <Card className='w-full relative'>
+    <div className='h-full relative'>
+      <h3 className="text-xl md:text-2xl font-bold mb-4 leading-none sticky top-24 bg-white py-4">{name}</h3>
       <ul className="divide-y ">
         {telefonos.map((tel) => (
           <li className="py-3 sm:py-4" key={tel}>
