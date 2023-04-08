@@ -3,9 +3,9 @@ import { Card } from 'flowbite-react'
 const Nosotros = () => {
   return (
     <article className="grid  gap-12 align-top justify-start my-12 md:grid-cols-2">
-      <Card className="align-top justify-start">
+      <Card className="bg-card-back">
         <div className="h-full">
-          <h2 className="text-3xl font-bold text-center" id="Nosotros">
+          <h2 className="text-3xl font-bold text-mark" id="Nosotros">
             Nosotros
           </h2>
           <p className="text-justify mt-4 text-lg">
@@ -25,12 +25,12 @@ const Nosotros = () => {
           </ul>
         </div>
       </Card>
-      <Card>
+      <Card className="bg-card-back">
         <div className="h-full">
-          <h2 className="text-xl md:text-3xl font-bold text-center">
+          <h2 className="text-xl md:text-3xl font-bold  ">
             Reparación y mantenimiento de:
           </h2>
-          <ul className="grid md:grid-cols-2 list-disc ml-10  mt-4 gap-5">
+          <ul className="grid md:grid-cols-2 list-disc ml-10 mt-6 gap-5">
             <li>Lavadoras</li>
             <li>Microondas</li>
             <li>Hornos</li>

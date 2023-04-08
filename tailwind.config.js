@@ -6,7 +6,16 @@ export default {
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        back: '#eff0f3',
+        card: {
+          back: '#eff0f3'
+        },
+        text: '#2a2a2a',
+        mark: '#D93737'
+      }
+    },
   },
   plugins: [require('flowbite/plugin')],
 }

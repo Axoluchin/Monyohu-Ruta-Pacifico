@@ -2,22 +2,30 @@ import { Navbar, Footer, Tooltip } from 'flowbite-react'
 import { Outlet } from 'react-router-dom'
 import ChatBubbleOvalLeftIcon from '@heroicons/react/24/outline/ChatBubbleOvalLeftIcon'
 
-const Header = () => (
+const Layout = () => (
   <div className="static ">
-    <Navbar fluid={true} rounded={true} className="drop-shadow-lg mb-8">
-      <Navbar.Brand href="/" className="ml-8">
+    <Navbar
+      fluid={true}
+      rounded={true}
+      
+      className="drop-shadow-lg mb-8 bg-card-back sticky top-0 z-10"
+      theme={{
+        base: 'hover:text-mark',
+      }}
+    >
+      <Navbar.Brand href="/" className="md:ml-8">
         <img src="/images/Logo.png" className="mr-3 " alt="Flowbite Logo" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+        <span className="self-center whitespace-nowrap text-xl md:text-3xl font-bold dark:text-white text-mark">
           Grupo Monyohu
         </span>
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="mr-24">
         <Navbar.Link href="/#Nosotros" className="font-bold text-lg">
-          Nosotros
+          <span className="hover:text-mark">Nosotros</span>
         </Navbar.Link>
         <Navbar.Link href="/sedes" className="font-bold text-lg">
-          Sedes
+          <span className="hover:text-mark">Sedes</span>
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
@@ -27,7 +35,7 @@ const Header = () => (
       rel="noopener noreferrer"
       className="fixed drop-shadow-lg bottom-5 md:bottom-20 right-10"
     >
-      <Tooltip content={"Envianos mensaje"}>
+      <Tooltip content={'Envianos mensaje'}>
         <ChatBubbleOvalLeftIcon className=" text-white h-20 bg-emerald-400  rounded-full p-3" />
       </Tooltip>
     </a>
@@ -42,4 +50,4 @@ const Header = () => (
   </div>
 )
 
-export default Header
+export default Layout
