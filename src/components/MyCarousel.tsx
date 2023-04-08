@@ -1,7 +1,7 @@
 import { Carousel } from 'flowbite-react'
 
 const MyCarousel = () => (
-  <div className="grid h-56 grid-cols-2 gap-4 sm:h-full xl:h-80 2xl:h-96 ">
+  <div className="grid gap-4 w-full aspect-video">
   <Carousel>
     <img
       src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
