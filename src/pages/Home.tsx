@@ -7,7 +7,6 @@ const Home = () => {
         <div className='w-10/12 m-auto'>
           <MyCarousel />
           <Nosotros />
-  
         </div>
       </main>
     )
