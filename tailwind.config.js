@@ -10,11 +10,12 @@ export default {
       colors: {
         back: '#eff0f3',
         card: {
-          back: '#eff0f3'
+          back: '#eff0f3',
         },
         text: '#2a2a2a',
-        mark: '#D93737'
-      }
+        mark: '#D93737',
+        landing: '#f6efef',
+      },
     },
   },
   plugins: [require('flowbite/plugin')],

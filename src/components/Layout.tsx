@@ -8,7 +8,7 @@ const Layout = () => (
       fluid={true}
       rounded={true}
       
-      className="drop-shadow-lg mb-8 bg-card-back sticky top-0 z-10"
+      className="drop-shadow-lg  bg-card-back sticky top-0 z-10"
       theme={{
         base: 'hover:text-mark',
       }}
@@ -33,7 +33,7 @@ const Layout = () => (
       href="https://wa.me/525585265946"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed drop-shadow-lg bottom-5 md:bottom-20 right-10"
+      className="fixed drop-shadow-lg bottom-5 md:bottom-20 right-10 z-10"
     >
       <Tooltip content={'Envianos mensaje'}>
         <ChatBubbleOvalLeftIcon className=" text-white h-20 bg-emerald-400  rounded-full p-3" />

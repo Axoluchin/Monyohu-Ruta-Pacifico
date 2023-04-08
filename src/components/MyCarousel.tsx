@@ -1,7 +1,7 @@
 import { Carousel } from 'flowbite-react'
 
 const MyCarousel = () => (
-  <div className="grid gap-4 w-11/12 m-auto aspect-video">
+  <div className="grid gap-4 m-auto aspect-video shadow-xl">
     <Carousel className="" slide={false}>
       <video controls muted autoPlay>
         <source src="/video/VideoTestimonios.mp4" type="video/mp4" />

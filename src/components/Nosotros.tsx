@@ -2,7 +2,7 @@ import { Card } from 'flowbite-react'
 
 const Nosotros = () => {
   return (
-    <article className="grid  gap-12 align-top justify-start my-12 md:grid-cols-2">
+    <article className="grid gap-12 align-top justify-start my-12 md:grid-cols-2">
       <Card className="bg-card-back">
         <div className="h-full">
           <h2 className="text-3xl font-bold text-mark" id="Nosotros">
