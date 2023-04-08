@@ -1,10 +1,18 @@
-const App = () => {
+import Header from './components/Header'
+import MyCarousel from './components/MyCarousel'
+import Nosotros from './components/Nosotros'
 
+const App = () => {
   return (
     <div className="App">
-      <h1 className="text-emerald-400 font-bold">
-        Hola mundo
-      </h1>
+      <Header />
+      <div className='w-10/12 m-auto'>
+        <MyCarousel />
+        <Nosotros />
+
+        <h2>Sedes</h2>
+        <p>Descubre nuestras sedes -{'>'} </p>
+      </div>
     </div>
   )
 }
