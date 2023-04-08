@@ -1,11 +1,9 @@
-import Header from '../components/Header'
 import MyCarousel from '../components/MyCarousel'
 import Nosotros from '../components/Nosotros'
 
-const App = () => {
+const Home = () => {
     return (
       <main className="">
-        <Header />
         <div className='w-10/12 m-auto'>
           <MyCarousel />
           <Nosotros />
@@ -17,5 +15,5 @@ const App = () => {
     )
   }
   
-  export default App
+  export default Home
   
