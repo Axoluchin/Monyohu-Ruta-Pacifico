@@ -8,8 +8,6 @@ const Home = () => {
           <MyCarousel />
           <Nosotros />
   
-          <h2>Sedes</h2>
-          <p>Descubre nuestras sedes -{'>'} </p>
         </div>
       </main>
     )
