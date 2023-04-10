@@ -5,14 +5,14 @@ const Landing = () => (
   >
     <div className="self-center p-8">
       <h1 className="text-5xl mb-10 font-bold text-mark">Grupo Monyohu</h1>
-      <p className="mt-4 text-xl">
-        Somos una empresa con más de 30 años en el mercado, ofrecemos garantía
-        por escrito y la mejor atención en cada uno de nuestros servicios
-      </p>
-      <ul className="grid md:grid-cols-2 list-disc ml-10 gap-3 mt-8 mb-4">
+      <ul className="grid md:grid-cols-2 text-lg list-disc ml-10 gap-3 mt-8 mb-4">
+        <li className="md:col-span-2">Siempre otorgamos el <span className="font-bold">10% de descuento</span> en apoyo a tu economía</li>
+        <li>Revision gratis</li>
+        <li>Contamos con <span className="font-bold">tecnicos capacitados</span></li>
         <li>Estamos establecidos</li>
-        <li>Facturamos</li>
-        <li>Entregamos garantía</li>
+        <li>Garantia por escrito</li>
+        <li>Registrados ante el SAT</li>
+        <li>Entregamos <span className="font-bold">garantía</span></li>
         <li>Contamos con refaccionarias y almacén</li>
       </ul>
       <p className="text-xl">

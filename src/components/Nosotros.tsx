@@ -9,41 +9,39 @@ const Nosotros = () => {
           <h2 className="text-3xl font-bold text-mark" id="Nosotros">
             Nosotros
           </h2>
-          <p className="mt-4 text-lg">
+          <p className="mt-4 text-lg whitespace-break-spaces">
             Somos una empresa con más de 30 años de experiencia, ofrecemos
             garantía por escrito y la mejor atención en cada uno de nuestros
-            servicios
-          </p>
-          <ul className="grid md:grid-cols-2 list-disc ml-5 gap-3 mt-8 mb-4">
-            <li>Estamos establecidos</li>
-            <li>Facturamos</li>
-            <li>Entregamos garantía</li>
-            <li>Contamos con refaccionarias y almacén</li>
-          </ul>
-          <p>
-            No somos un Call Center fantasma, somos un servicio con más de 30
-            años de experiencia
+            servicios.
+            <br className="" />
+            Contamos con sucursales en todo el interior de la república y
+            refaccionarias Somos el centro de servicio Whirlpool, Liverpool,
+            Palacio de hierro, Costco , entre otros.
           </p>
         </div>
       </Card>
       <Card className="bg-card-back row-span-2">
         <div className="h-full">
-        <img src='/images/reparacion.jpg' className='rounded-lg h-72 w-full mb-8 object-cover m-auto'/>
+          <img
+            src="/images/reparacion.jpg"
+            className="rounded-lg h-72 w-full mb-8 object-cover m-auto"
+          />
           <h2 className="text-xl md:text-3xl font-bold ">
             Reparación, instalación y mantenimiento de:
           </h2>
           <ul className="grid md:grid-cols-2 list-disc ml-5 mt-6 gap-5">
             <li>Lavadoras</li>
-            <li>Microondas</li>
+            <li>Centros de lavado</li>
             <li>Refrigeradores</li>
             <li>Secadoras</li>
-            <li>Licuadoras</li>
+            <li>Congeladores</li>
             <li>Estufas</li>
             <li>Hornos</li>
             <li>Minisplit</li>
-            <li>Centros de lavado</li>
-            <li>y mucho más..</li>
+            <li>Microondas</li>
+            <li>Licuadoras</li>
           </ul>
+          <p className="mt-4 font-bold text-center">y mucho más..</p>
         </div>
       </Card>
       <Card>
@@ -52,29 +50,37 @@ const Nosotros = () => {
         </h2>
 
         <ul className="flex flex-col gap-4 list-disc ml-5">
+          <li>Contamos con personal propio.</li>
           <li>
-            Tienes comunicación directa con nosotros para poder aclarar todas
-            tus dudas y sentirte seguro.
+            Nuestro domicilio, teléfono y ordenes de servicio son siempre los
+            mismos para ganarnos tu fidelidad.
+          </li>
+          <li>No te pediremos nunca un anticipo.</li>
+          <li>
+            Tienes comunicación directa con nosotros en todo el proceso para
+            poder aclarar todas tus dudas y sentirte seguro.
           </li>
           <li>
             <p>
               Tenemos refaccionaris propias con refacciones nuevas, originales y
-              al mejor costo
+              al mejor costo.
             </p>
             <a
               href="https://refaccionesmonyohu.com"
               target="_blank"
               rel="noopener noreferrer"
-              className='text-mark font-bold underline text-base'
+              className="text-mark font-bold underline text-base"
             >
               refaccionesmonyohu.com{' '}
-              <ArrowTopRightOnSquareIcon className='h-4 inline'/>
+              <ArrowTopRightOnSquareIcon className="h-4 inline" />
             </a>
           </li>
-          <li>Arreglamos tus equipos en tu domicilio</li>
           <li>
-            Nuestros técnicos están en constante capacitación para atender a
-            todas tus necesidades
+            Arreglamos tus equipos en tu domicilio o en nuestros centros de
+            servicio.
+          </li>
+          <li>
+          Nuestros técnicos están en constante capacitación para atender a todas tus necesidades.
           </li>
         </ul>
       </Card>
