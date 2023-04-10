@@ -5,39 +5,59 @@ import ArrowTopRightOnSquareIcon from '@heroicons/react/24/outline/ArrowTopRight
 
 const Layout = () => (
   <div className="static ">
-    <Navbar
-      fluid={true}
-      rounded={true}
-      className="drop-shadow-lg  bg-card-back sticky top-0 z-10"
-      theme={{
-        base: 'hover:text-mark',
-      }}
-    >
-      <Navbar.Brand href="/" className="md:ml-8">
-        <img src="/images/Logo.png" className="mr-3 " alt="Flowbite Logo" />
-        <span className="self-center whitespace-nowrap text-xl md:text-3xl font-bold dark:text-white text-mark">
-          Grupo Monyohu
-        </span>
-      </Navbar.Brand>
-      <Navbar.Toggle />
-      <Navbar.Collapse className="mr-24">
-        <Navbar.Link href="/#Nosotros" className="font-bold text-lg">
-          <span className="hover:text-mark">Nosotros</span>
-        </Navbar.Link>
-        <Navbar.Link href="/sedes" className="font-bold text-lg">
-          <span className="hover:text-mark">Sedes</span>
-        </Navbar.Link>
-        <Navbar.Link
+    <div className="drop-shadow-lg  bg-card-back sticky top-0 z-10">
+      <Navbar
+        fluid={true}
+        rounded={true}
+        className=""
+        theme={{
+          base: 'hover:text-mark',
+        }}
+      >
+        <Navbar.Brand href="/" className="md:ml-8">
+          <img src="/images/Logo.png" className="mr-3 " alt="Flowbite Logo" />
+          <span className="self-center whitespace-nowrap text-xl md:text-3xl font-bold dark:text-white text-mark">
+            Grupo Monyohu
+          </span>
+        </Navbar.Brand>
+        <Navbar.Collapse className="mr-24">
+          <Navbar.Link href="/#Nosotros" className="font-bold text-lg">
+            <span className="hover:text-mark">Inicio</span>
+          </Navbar.Link>
+          <Navbar.Link href="/sedes" className="font-bold text-lg">
+            <span className="hover:text-mark">Sucursales</span>
+          </Navbar.Link>
+          <Navbar.Link
+            href="https://refaccionesmonyohu.com"
+            target="_blank"
+            className="font-bold text-lg"
+          >
+            <span className="hover:text-mark">
+              Refacciones
+              <ArrowTopRightOnSquareIcon className="h-4 inline -translate-y-2" />
+            </span>
+          </Navbar.Link>
+        </Navbar.Collapse>
+      </Navbar>
+      <div className="flex justify-around py-3 md:hidden">
+        <a href="/#Nosotros" className="font-bold">
+          <span className="hover:text-mark">Inicio</span>
+        </a>
+        <a href="/sedes" className="font-bold">
+          <span className="hover:text-mark">Sucursales</span>
+        </a>
+        <a
           href="https://refaccionesmonyohu.com"
           target="_blank"
-          className="font-bold text-lg"
+          className="font-bold"
         >
-          <span className="hover:text-mark">Refacciones
-          <ArrowTopRightOnSquareIcon className='h-4 inline -translate-y-2'/>
+          <span className="hover:text-mark">
+            Refacciones
+            <ArrowTopRightOnSquareIcon className="h-4 inline -translate-y-2" />
           </span>
-        </Navbar.Link>
-      </Navbar.Collapse>
-    </Navbar>
+        </a>
+      </div>
+    </div>
     <a
       href="https://wa.me/525585265946"
       target="_blank"
@@ -52,11 +72,11 @@ const Layout = () => (
     <Footer container={true}>
       <Footer.Copyright href="/" by="Grupo Monyohu" year={2023} />
       <Footer.LinkGroup className="gap-5">
-        <Footer.Link href="/#Nosotros">Nosotros</Footer.Link>
-        <Footer.Link href="/sedes">Sedes</Footer.Link>
+        <Footer.Link href="/">Inicio</Footer.Link>
+        <Footer.Link href="/sedes">Sucursales</Footer.Link>
         <Footer.Link href="https://refaccionesmonyohu.com" target="_blank">
           Refacciones
-          <ArrowTopRightOnSquareIcon className='h-3 inline -translate-y-1'/>
+          <ArrowTopRightOnSquareIcon className="h-3 inline -translate-y-1" />
         </Footer.Link>
       </Footer.LinkGroup>
     </Footer>

@@ -54,7 +54,7 @@ const Sedes = () => {
     <div className="md:grid md:grid-cols-2 gap-10 static">
       <div className="px-2 md:pl-16 pt-8">
         <Card>
-          <h1 className="text-center text-5xl font-bold text-mark">Sedes</h1>
+          <h1 className="text-center text-5xl font-bold text-mark">Sucursales</h1>
           <p className="text-center text-xl mt-8">
             Nuestro trabajo nos respalda
           </p>
