@@ -5,11 +5,11 @@ import { Card, TextInput } from 'flowbite-react'
 import CardSede from '../components/CardSede'
 
 interface sede {
-  name: string;
-  telefonos: string[];
+  name: string
+  telefonos: string[]
 }
 
-const sedesList:sede[] = [
+const sedesList: sede[] = [
   {
     name: 'Irapuato',
     telefonos: ['462 660 1289', '462 635 6264'],
@@ -64,10 +64,9 @@ const Sedes = () => {
   const [textFilter, setTextFilter] = useState('')
 
   const filter = useCallback(
-    (sede:sede) => sede.name.toLowerCase().includes(textFilter.toLowerCase()),
+    (sede: sede) => sede.name.toLowerCase().includes(textFilter.toLowerCase()),
     [textFilter],
   )
-  
 
   return (
     <div className="md:grid md:grid-cols-2 gap-10 static">
@@ -76,13 +75,11 @@ const Sedes = () => {
           <h1 className="text-center text-5xl font-bold text-mark">
             Sucursales
           </h1>
-          <p className="text-center text-xl">
-            Nuestro trabajo nos respalda
-          </p>
+          <p className="text-center text-xl">Nuestro trabajo nos respalda</p>
           <TextInput
-          icon={MagnifyingGlassIcon}
-          placeholder='Busca tu sucursal'
-          onChange={(data) => setTextFilter(data.target.value)}
+            icon={() => <MagnifyingGlassIcon className='text-slate-500 h-5'/>}
+            placeholder="Busca tu sucursal"
+            onChange={(data) => setTextFilter(data.target.value)}
           />
         </Card>
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 my-12">
