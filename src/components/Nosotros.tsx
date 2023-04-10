@@ -25,9 +25,10 @@ const Nosotros = () => {
           </p>
         </div>
       </Card>
-      <Card className="bg-card-back">
+      <Card className="bg-card-back row-span-2">
         <div className="h-full">
-          <h2 className="text-xl md:text-3xl font-bold  ">
+        <img src='/images/reparacion.jpg' className='rounded-lg h-72 w-full mb-8 object-cover m-auto'/>
+          <h2 className="text-xl md:text-3xl font-bold ">
             Reparación, instalación y mantenimiento de:
           </h2>
           <ul className="grid md:grid-cols-2 list-disc ml-5 mt-6 gap-5">
