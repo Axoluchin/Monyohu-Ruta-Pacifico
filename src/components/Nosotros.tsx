@@ -1,4 +1,5 @@
 import { Card } from 'flowbite-react'
+import ArrowTopRightOnSquareIcon from '@heroicons/react/24/outline/ArrowTopRightOnSquareIcon'
 
 const Nosotros = () => {
   return (
@@ -63,9 +64,10 @@ const Nosotros = () => {
               href="https://refaccionesmonyohu.com"
               target="_blank"
               rel="noopener noreferrer"
-              className='text-mark font-bold underline'
+              className='text-mark font-bold underline text-base'
             >
-              refaccionesmonyohu.com
+              refaccionesmonyohu.com{' '}
+              <ArrowTopRightOnSquareIcon className='h-4 inline'/>
             </a>
           </li>
           <li>Arreglamos tus equipos en tu domicilio</li>

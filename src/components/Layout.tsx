@@ -1,6 +1,7 @@
 import { Navbar, Footer, Tooltip } from 'flowbite-react'
 import { Outlet } from 'react-router-dom'
 import ChatBubbleOvalLeftIcon from '@heroicons/react/24/outline/ChatBubbleOvalLeftIcon'
+import ArrowTopRightOnSquareIcon from '@heroicons/react/24/outline/ArrowTopRightOnSquareIcon'
 
 const Layout = () => (
   <div className="static ">
@@ -31,7 +32,9 @@ const Layout = () => (
           target="_blank"
           className="font-bold text-lg"
         >
-          <span className="hover:text-mark">Refacciones</span>
+          <span className="hover:text-mark">Refacciones
+          <ArrowTopRightOnSquareIcon className='h-4 inline -translate-y-2'/>
+          </span>
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
@@ -53,6 +56,7 @@ const Layout = () => (
         <Footer.Link href="/sedes">Sedes</Footer.Link>
         <Footer.Link href="https://refaccionesmonyohu.com" target="_blank">
           Refacciones
+          <ArrowTopRightOnSquareIcon className='h-3 inline -translate-y-1'/>
         </Footer.Link>
       </Footer.LinkGroup>
     </Footer>
