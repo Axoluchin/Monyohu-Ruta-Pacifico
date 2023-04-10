@@ -6,7 +6,7 @@ const Landing = () => (
     <div className="self-center p-8">
       <h1 className="text-5xl mb-10 font-bold text-mark">Grupo Monyohu</h1>
       <p className="mt-4 text-xl">
-        Somos una empresa con más de 10 años en el mercado, ofrecemos garantía
+        Somos una empresa con más de 30 años en el mercado, ofrecemos garantía
         por escrito y la mejor atención en cada uno de nuestros servicios
       </p>
       <ul className="grid md:grid-cols-2 list-disc ml-10 gap-3 mt-8 mb-4">
@@ -16,7 +16,7 @@ const Landing = () => (
         <li>Contamos con refaccionarias y almacén</li>
       </ul>
       <p className="text-xl">
-        No somos un Call Center fantasma, somos un servicio con más de <span className="font-bold">20 años
+        No somos un Call Center fantasma, somos un servicio con más de <span className="font-bold">30 años
         de experiencia</span> 
       </p>
     </div>

@@ -21,7 +21,7 @@ const Nosotros = () => {
             <li>Contamos con refaccionarias y almacén</li>
           </ul>
           <p>
-            No somos un Call Center fantasma, somos un servicio con más de 20
+            No somos un Call Center fantasma, somos un servicio con más de 30
             años de experiencia
           </p>
         </div>
@@ -35,13 +35,14 @@ const Nosotros = () => {
           <ul className="grid md:grid-cols-2 list-disc ml-5 mt-6 gap-5">
             <li>Lavadoras</li>
             <li>Microondas</li>
-            <li>Hornos</li>
+            <li>Refrigeradores</li>
             <li>Secadoras</li>
             <li>Licuadoras</li>
             <li>Estufas</li>
             <li>Hornos</li>
             <li>Minisplit</li>
             <li>Centros de lavado</li>
+            <li>y mucho más..</li>
           </ul>
         </div>
       </Card>
@@ -72,7 +73,7 @@ const Nosotros = () => {
           </li>
           <li>Arreglamos tus equipos en tu domicilio</li>
           <li>
-            Nuestros técnicos están en contante capacitación para atender a
+            Nuestros técnicos están en constante capacitación para atender a
             todas tus necesidades
           </li>
         </ul>
