@@ -10,7 +10,7 @@ interface CardSedeProps {
 const CardSede: FC<CardSedeProps> = ({ name, telefonos }) => (
   <Card className="w-full relative">
     <div className="h-full relative">
-      <h3 className="text-xl md:text-2xl font-bold mb-4 leading-none sticky top-20 bg-white py-4">
+      <h3 className="text-xl font-bold mb-4 leading-none sticky top-20 bg-white py-4">
         {name}
       </h3>
       <ul className="divide-y ">

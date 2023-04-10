@@ -8,12 +8,7 @@ const sedesList = [
   },
   {
     name: 'Culiacán',
-    telefonos: [
-      '667 749 6719',
-      '667 172 1161',
-      '667 749 6931',
-      '667 172 1162',
-    ],
+    telefonos: ['667 749 6719', '667 172 1161', '667 749 6931', '667 172 1162'],
   },
   {
     name: 'Celaya',
@@ -28,12 +23,12 @@ const sedesList = [
     telefonos: ['555 312 6501', '555 312 7031'],
   },
   {
-    name: 'Toluca',
-    telefonos: ['722 217 1276'],
+    name: 'Toluca | Atlacomulco | Zinacantepec',
+    telefonos: ['722 217 1276', '722 270 2114', '722 270 2115'],
   },
   {
-    name: 'Toluca - sucursal en Colón',
-    telefonos: ['722 320 2024'],
+    name: 'Toluca sucursal Colón | Valle de Bravo | Cacalomacán | Capultitán',
+    telefonos: ['722 320 2024', '722 778960', '722 2171276'],
   },
   {
     name: 'Lerma - Ocoyoacac',
@@ -47,6 +42,14 @@ const sedesList = [
     name: 'Morelia Sur',
     telefonos: ['443 234 0110'],
   },
+  {
+    name: 'Metepec | San Mateo | Xonacatlán',
+    telefonos: ['722 199 5617', '722 199 3759'],
+  },
+  {
+    name: 'Metepec sucursal Sur | Mexicalcingo | Calimaya | Ixtapan de la sal',
+    telefonos: ['722 320 2005', '722 297 2284'],
+  },
 ]
 
 const Sedes = () => {
@@ -54,7 +57,9 @@ const Sedes = () => {
     <div className="md:grid md:grid-cols-2 gap-10 static">
       <div className="px-2 md:pl-16 pt-8">
         <Card>
-          <h1 className="text-center text-5xl font-bold text-mark">Sucursales</h1>
+          <h1 className="text-center text-5xl font-bold text-mark">
+            Sucursales
+          </h1>
           <p className="text-center text-xl mt-8">
             Nuestro trabajo nos respalda
           </p>
