@@ -7,7 +7,6 @@ const Layout = () => (
     <Navbar
       fluid={true}
       rounded={true}
-      
       className="drop-shadow-lg  bg-card-back sticky top-0 z-10"
       theme={{
         base: 'hover:text-mark',
@@ -27,6 +26,13 @@ const Layout = () => (
         <Navbar.Link href="/sedes" className="font-bold text-lg">
           <span className="hover:text-mark">Sedes</span>
         </Navbar.Link>
+        <Navbar.Link
+          href="https://refaccionesmonyohu.com"
+          target="_blank"
+          className="font-bold text-lg"
+        >
+          <span className="hover:text-mark">Refacciones</span>
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
     <a
@@ -45,6 +51,9 @@ const Layout = () => (
       <Footer.LinkGroup className="gap-5">
         <Footer.Link href="/#Nosotros">Nosotros</Footer.Link>
         <Footer.Link href="/sedes">Sedes</Footer.Link>
+        <Footer.Link href="https://refaccionesmonyohu.com" target="_blank">
+          Refacciones
+        </Footer.Link>
       </Footer.LinkGroup>
     </Footer>
   </div>
