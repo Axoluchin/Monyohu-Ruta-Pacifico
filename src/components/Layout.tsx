@@ -4,7 +4,7 @@ import ChatBubbleOvalLeftIcon from '@heroicons/react/24/outline/ChatBubbleOvalLe
 import ArrowTopRightOnSquareIcon from '@heroicons/react/24/outline/ArrowTopRightOnSquareIcon'
 
 const Layout = () => (
-  <div className="static ">
+  <div className="static min-h-screen">
     <div className="drop-shadow-lg  bg-card-back sticky top-0 z-10">
       <Navbar
         fluid={true}
@@ -68,7 +68,9 @@ const Layout = () => (
         <ChatBubbleOvalLeftIcon className=" text-white h-20 bg-emerald-400  rounded-full p-3" />
       </Tooltip>
     </a>
-    <Outlet />
+    <div className='min-h-screen'>
+      <Outlet />
+    </div>
     <Footer container={true}>
       <Footer.Copyright href="/" by="Grupo Monyohu" year={2023} />
       <Footer.LinkGroup className="gap-5">
