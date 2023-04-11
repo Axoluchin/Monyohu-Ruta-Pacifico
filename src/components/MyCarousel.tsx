@@ -6,7 +6,7 @@ const MyCarousel = () => (
     slide={false}
   >
     <video controls muted autoPlay>
-      <source src="/video/VideoTestimonios.mp4" type="video/mp4" />
+      <source src="/video/MONYOHU.mp4" type="video/mp4" />
     </video>
     <img
       src="/images/NuevaSede.png"

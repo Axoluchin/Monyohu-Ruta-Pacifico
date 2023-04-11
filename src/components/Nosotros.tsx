@@ -2,6 +2,18 @@ import { Card } from 'flowbite-react'
 import ArrowTopRightOnSquareIcon from '@heroicons/react/24/outline/ArrowTopRightOnSquareIcon'
 
 const images = ['c', 'lp', 'ph', 'wh']
+const imagesButton = [
+  'easy',
+  'Elec',
+  'General_Electric_logo.svg',
+  'kitchenaid-logo',
+  'LG',
+  'Logotipo_Mabe.svg',
+  'Maytag-Logo-2008',
+  'Oster',
+  'Subzero',
+  'wh',
+]
 
 const Nosotros = () => {
   return (
@@ -38,7 +50,7 @@ const Nosotros = () => {
               className="rounded-lg h-72 w-full mb-8 object-cover m-auto"
             />
             <h2 className="text-xl md:text-3xl font-bold ">
-              Reparación, instalación y mantenimiento de:
+              Reparación, instalación, mantenimiento, refacciones y servicio de:
             </h2>
             <ul className="grid md:grid-cols-2 list-disc ml-5 mt-6 gap-5">
               <li>Lavadoras</li>
@@ -97,13 +109,17 @@ const Nosotros = () => {
           </ul>
         </Card>
       </article>
-      <div className="grid grid-cols-4">
-        {images.map((image) => (
+      <div className="flex flex-wrap justify-between gap-y-4 mb-24">
+        {imagesButton.map((image) => (
           <img
             src={`/logos/${image}.png`}
-            className="w-10/12 h-28 md:h-40 object-contain m-auto"
+            className="w-24 h-14 md:h-40 object-contain"
           />
         ))}
+        <img
+          src={`/logos/Tfallogo.svg`}
+          className="w-24 h-14 md:h-40 object-contain"
+        />
       </div>
     </div>
   )

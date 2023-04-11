@@ -90,10 +90,10 @@ const Sedes = () => {
       </div>
       <div className="bg-landing order-1 md:order-2">
         <img
-          src="/images/Phone.png"
+          src="/images/help.png"
           alt="Phone man"
           style={{ height: '80vh' }}
-          className="self-center md:fixed right-1/5 md:my-16 object-contain"
+          className="self-center md:fixed  md:my-16 object-contain"
         />
       </div>
     </div>
