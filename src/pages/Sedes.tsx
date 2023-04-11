@@ -69,7 +69,7 @@ const Sedes = () => {
   )
 
   return (
-    <div className="md:grid md:grid-cols-2 gap-10 static">
+    <div className="md:grid md:grid-cols-2 gap-10 static min-h-screen">
       <div className="px-2 md:pl-16 pt-8">
         <Card>
           <h1 className="text-center text-5xl font-bold text-mark">
