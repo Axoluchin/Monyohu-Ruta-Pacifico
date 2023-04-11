@@ -30,7 +30,9 @@ const Nosotros = () => {
               servicios.
               <br className="" />
               Contamos con sucursales en todo el interior de la república y
-              refaccionarias Somos el centro de servicio Whirlpool, Liverpool,
+              refaccionarias.
+              <br />
+              Somos el centro de servicio Whirlpool, Liverpool,
               Palacio de hierro, Costco , entre otros.
             </p>
             <div className="grid grid-cols-4">
