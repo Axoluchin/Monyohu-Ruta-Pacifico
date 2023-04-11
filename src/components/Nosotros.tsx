@@ -43,30 +43,33 @@ const Nosotros = () => {
             </div>
           </div>
         </Card>
-        <Card className="bg-card-back row-span-2">
-          <div className="h-full">
-            <img
-              src="/images/reparacion.jpg"
-              className="rounded-lg h-72 w-full mb-8 object-cover m-auto"
-            />
-            <h2 className="text-xl md:text-3xl font-bold ">
-              Reparación, instalación, mantenimiento, refacciones y servicio de:
-            </h2>
-            <ul className="grid md:grid-cols-2 list-disc ml-5 mt-6 gap-5">
-              <li>Lavadoras</li>
-              <li>Centros de lavado</li>
-              <li>Refrigeradores</li>
-              <li>Secadoras</li>
-              <li>Congeladores</li>
-              <li>Estufas</li>
-              <li>Hornos</li>
-              <li>Minisplit</li>
-              <li>Microondas</li>
-              <li>Licuadoras</li>
-            </ul>
-            <p className="mt-4 font-bold text-center">y mucho más..</p>
-          </div>
-        </Card>
+        <div className='row-span-2'>
+          <Card className="bg-card-back">
+            <div className="h-full">
+              <img
+                src="/images/reparacion.jpg"
+                className="rounded-lg h-72 w-full mb-8 object-cover m-auto"
+              />
+              <h2 className="text-xl md:text-3xl font-bold ">
+                Reparación, instalación, mantenimiento, refacciones y servicio
+                de:
+              </h2>
+              <ul className="grid md:grid-cols-2 list-disc ml-5 mt-6 gap-5">
+                <li>Lavadoras</li>
+                <li>Centros de lavado</li>
+                <li>Refrigeradores</li>
+                <li>Secadoras</li>
+                <li>Congeladores</li>
+                <li>Estufas</li>
+                <li>Hornos</li>
+                <li>Minisplit</li>
+                <li>Microondas</li>
+                <li>Licuadoras</li>
+              </ul>
+              <p className="mt-4 font-bold text-center">y mucho más..</p>
+            </div>
+          </Card>
+        </div>
         <Card>
           <h2 className="text-3xl font-bold text-mark" id="Nosotros">
             Nuestra promesa
