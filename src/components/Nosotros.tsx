@@ -32,8 +32,8 @@ const Nosotros = () => {
               Contamos con sucursales en todo el interior de la república y
               refaccionarias.
               <br />
-              Somos el centro de servicio Whirlpool, Liverpool,
-              Palacio de hierro, Costco , entre otros.
+              Somos el centro de servicio Whirlpool, Liverpool, Palacio de
+              hierro, Costco , entre otros.
             </p>
             <div className="grid grid-cols-4">
               {images.map((image) => (
@@ -45,7 +45,7 @@ const Nosotros = () => {
             </div>
           </div>
         </Card>
-        <div className='row-span-2'>
+        <div className="row-span-2">
           <Card className="bg-card-back">
             <div className="h-full">
               <img
@@ -90,8 +90,8 @@ const Nosotros = () => {
             </li>
             <li>
               <p>
-                Tenemos refaccionaris propias con refacciones nuevas, originales
-                y al mejor costo.
+                Tenemos refaccionarias propias, con refacciones nuevas,
+                originales y al mejor precio.
               </p>
               <a
                 href="https://refaccionesmonyohu.com"
