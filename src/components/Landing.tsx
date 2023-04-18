@@ -5,7 +5,8 @@ const Landing = () => (
   >
     <img src="/images/intro.png" className="hidden md:block md:self-center h-full object-cover" />
     <div className="self-center p-8">
-      <h1 className="text-5xl mb-10 font-bold text-mark">Grupo Monyohu</h1>
+      <h1 className="text-5xl mb-8 font-bold text-mark">Grupo Monyohu</h1>
+      <p>Llámanos o manda WA al contacto de la matriz <a href="tel:5585265946" className="text-mark font-bold underline">55 8526 5946</a></p>
       <ul className="grid md:grid-cols-2 text-lg list-disc ml-10 gap-3 mt-8 mb-4">
         <li className="md:col-span-2">
           Siempre otorgamos el{' '}
