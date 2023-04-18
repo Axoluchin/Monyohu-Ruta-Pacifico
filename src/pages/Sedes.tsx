@@ -36,7 +36,7 @@ const sedesList: sede[] = [
   },
   {
     name: 'Toluca sucursal Colón | Valle de Bravo | Cacalomacán | Capultitán',
-    telefonos: ['722 778960', '722 2171276'],
+    telefonos: ['722 277 8960', '722 2171276'],
   },
   {
     name: 'Lerma - Ocoyoacac',
