@@ -44,11 +44,19 @@ const sedesList: sede[] = [
   },
   {
     name: 'Morelia Norte',
-    telefonos: ['443 316 6924'],
+    telefonos: ['443 316 6924', '443 316 6951'],
   },
   {
     name: 'Morelia Sur',
-    telefonos: ['443 234 0110'],
+    telefonos: ['443 234 0110', '443 327 4542'],
+  },
+  {
+    name: 'Monterrey',
+    telefonos: ['818 340 4230', '818 340 4578'],
+  },
+  {
+    name: 'Aguascalientes',
+    telefonos: ['449 994 1503', '449 994 2007'],
   },
   {
     name: 'Metepec | San Mateo | Xonacatlán',
