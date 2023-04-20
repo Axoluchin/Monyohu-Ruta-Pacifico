@@ -11,7 +11,7 @@ interface sede {
 
 const sedesList: sede[] = [
   {
-    name: 'Irapuato',
+    name: 'Irapuato | Salamanca',
     telefonos: ['462 660 1289', '462 635 6264'],
   },
   {
@@ -63,7 +63,7 @@ const sedesList: sede[] = [
     telefonos: ['722 199 5617', '722 199 3759'],
   },
   {
-    name: 'Metepec sucursal Sur | Mexicalcingo | Calimaya | Ixtapan de la sal',
+    name: 'Metepec sucursal Sur | Mexicalcingo | Calimaya | Ixtapan de la sal | Tenancingo',
     telefonos: ['722 320 2005', '722 297 2284'],
   },
   {
