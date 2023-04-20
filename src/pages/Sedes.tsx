@@ -58,6 +58,26 @@ const sedesList: sede[] = [
     name: 'Metepec sucursal Sur | Mexicalcingo | Calimaya | Ixtapan de la sal',
     telefonos: ['722 320 2005', '722 297 2284'],
   },
+  {
+    name: 'Cancún',
+    telefonos: ['998 138 8210', '998 138 8212']
+  },
+  {
+    name: 'León',
+    telefonos: ['477 707 9077', '477 429 5423']
+  },
+  {
+    name: 'Mérida',
+    telefonos: ['999 931 0712', '999 931 0704']
+  },
+  {
+    name: 'Acapulco',
+    telefonos: ['744 482 1780', '744 482 1852']
+  },
+  {
+    name: 'Veracruz',
+    telefonos: ['229 935 5441', '229 935 6313']
+  },
 ]
 
 const Sedes = () => {
