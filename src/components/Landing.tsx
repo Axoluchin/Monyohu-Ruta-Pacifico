@@ -22,7 +22,7 @@ const Landing = () => (
           <span className="font-bold">10% de descuento</span> en apoyo a tu
           economía
         </li>
-        <li>Revision gratis</li>
+        <li>Revision <span className="font-bold">GRATIS</span></li>
         <li>
           Contamos con <span className="font-bold">tecnicos capacitados</span>
         </li>
