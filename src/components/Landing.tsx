@@ -12,7 +12,7 @@ const Landing = () => (
       <p className="text-xl">
         <span className="font-bold">Llámanos o manda WhatsApp</span> al contacto de las oficinas centrales
         <br />
-        <a href="tel:5585265946" className="text-green-400 font-bold underline">
+        <a href="tel:5585265946" className="text-green-400 font-bold underline text-4xl">
           55 8526 5946
         </a>
       </p>
