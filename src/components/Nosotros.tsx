@@ -1,19 +1,19 @@
-import { Card } from 'flowbite-react'
-import ArrowTopRightOnSquareIcon from '@heroicons/react/24/outline/ArrowTopRightOnSquareIcon'
+import { Card } from "flowbite-react";
+import ArrowTopRightOnSquareIcon from "@heroicons/react/24/outline/ArrowTopRightOnSquareIcon";
 
-const images = ['c', 'lp', 'ph', 'wh']
+const images = ["c", "lp", "ph", "wh"];
 const imagesButton = [
-  'easy',
-  'Elec',
-  'General_Electric_logo.svg',
-  'kitchenaid-logo',
-  'LG',
-  'Logotipo_Mabe.svg',
-  'Maytag-Logo-2008',
-  'Oster',
-  'Subzero',
-  'wh',
-]
+  "easy",
+  "Elec",
+  "General_Electric_logo.svg",
+  "kitchenaid-logo",
+  "LG",
+  "Logotipo_Mabe.svg",
+  "Maytag-Logo-2008",
+  "Oster",
+  "Subzero",
+  "wh",
+];
 
 const Nosotros = () => {
   return (
@@ -99,7 +99,7 @@ const Nosotros = () => {
                 rel="noopener noreferrer"
                 className="text-mark font-bold underline text-base"
               >
-                refaccionesmonyohu.com{' '}
+                refaccionesmonyohu.com{" "}
                 <ArrowTopRightOnSquareIcon className="h-4 inline" />
               </a>
             </li>
@@ -114,20 +114,22 @@ const Nosotros = () => {
           </ul>
         </Card>
       </article>
-      <div className="flex flex-wrap justify-between gap-y-4 mb-24">
-        {imagesButton.map((image) => (
+      <Card className="bg-card-back gap-y-4 mb-24 rounded-3xl drop-shadow-xl">
+        <div className="flex flex-wrap justify-between ">
+          {imagesButton.map((image) => (
+            <img
+              src={`/logos/${image}.png`}
+              className="w-24 h-14 md:h-40 object-contain"
+            />
+          ))}
           <img
-            src={`/logos/${image}.png`}
+            src={`/logos/Tfallogo.svg`}
             className="w-24 h-14 md:h-40 object-contain"
           />
-        ))}
-        <img
-          src={`/logos/Tfallogo.svg`}
-          className="w-24 h-14 md:h-40 object-contain"
-        />
-      </div>
+        </div>
+      </Card>
     </div>
-  )
-}
+  );
+};
 
-export default Nosotros
+export default Nosotros;

@@ -7,7 +7,7 @@ import Layout from './components/Layout'
 
 const App = () => {
   return (
-    <div className="App bg-back text-text bg-[url('/images/pattern1.png')] bg-repeat bg-center">
+    <div className="App bg-back text-text bg-[url('/images/patternBeach.webp')] bg-repeat bg-center">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

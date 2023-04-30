@@ -1,8 +1,8 @@
-import { Carousel } from 'flowbite-react'
+import { Carousel } from "flowbite-react";
 
 const MyCarousel = () => (
   <Carousel
-    className="h-full grid gap-4 m-auto aspect-video shadow-xl"
+    className="h-full grid gap-4 m-auto aspect-video shadow-xl bg-slate-200"
     slide={false}
   >
     <video controls muted autoPlay>
@@ -24,6 +24,6 @@ const MyCarousel = () => (
       className="h-full object-contain"
     />
   </Carousel>
-)
+);
 
-export default MyCarousel
+export default MyCarousel;

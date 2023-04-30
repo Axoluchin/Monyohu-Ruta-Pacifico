@@ -14,7 +14,7 @@ export default {
         },
         text: '#2a2a2a',
         mark: '#D93737',
-        landing: '#f6efef',
+        landing: '#caf0f8',
       },
     },
   },
