@@ -8,9 +8,10 @@ const Landing = () => (
       className="hidden md:block md:self-center h-full object-cover"
     />
     <div className="self-center p-8">
-      <h1 className="text-5xl mb-8 font-bold text-mark">Grupo Monyohu</h1>
+      <h1 className="text-3xl md:text-5xl mb-2 font-bold text-mark">Grupo Monyohu</h1>
+      <h2 className="text-3xl md:text-6xl mb-8 font-bold text-blue-800">RUTA DEL PACIFICO</h2>
       <p className="text-xl">
-        <span className="font-bold">Llámanos o manda WhatsApp</span> al contacto de las oficinas centrales
+        <span className="font-bold">Llámanos o manda WhatsApp</span> al contacto
         <br />
         <a href="tel:5585265946" className="text-green-400 font-bold underline text-4xl">
           55 8526 5946

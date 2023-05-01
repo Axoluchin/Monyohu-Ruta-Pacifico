@@ -11,6 +11,10 @@ interface sede {
 
 const sedesList: sede[] = [
   {
+    name: "Celaya",
+    telefonos: ["461 617 5004", "461 103 1098"],
+  },
+  {
     name: "Culiacán",
     telefonos: ["667 749 6931", "667 172 1162"],
   },

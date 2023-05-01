@@ -15,7 +15,7 @@ const Layout = () => (
         }}
       >
         <Navbar.Brand href="/" className="md:ml-8">
-          <img src="/images/Logo.png" className="mr-3 " alt="Flowbite Logo" />
+          <img src="/images/Logo.png" className="mr-3 h-16 my-2 ml-4" alt="Flowbite Logo" />
           <span className="self-center whitespace-nowrap text-xl md:text-3xl font-bold dark:text-white text-mark">
             Grupo Monyohu
           </span>

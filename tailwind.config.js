@@ -15,6 +15,7 @@ export default {
         text: '#2a2a2a',
         mark: '#D93737',
         landing: '#caf0f8',
+        blueCool: '#023e8a'
       },
     },
   },
