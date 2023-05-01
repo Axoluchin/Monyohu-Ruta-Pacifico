@@ -29,7 +29,7 @@ const Nosotros = () => {
               garantía por escrito y la mejor atención en cada uno de nuestros
               servicios.
               <br className="" />
-              Contamos con sucursales en todo el interior de la república y
+              Contamos con sucursales en el interior de la república y
               refaccionarias.
               <br />
               Somos el centro de servicio Whirlpool, Liverpool, Palacio de
