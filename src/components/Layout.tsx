@@ -59,7 +59,7 @@ const Layout = () => (
       </div>
     </div>
     <a
-      href="https://wa.me/525585265946"
+      href="https://wa.me/526674299554"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed drop-shadow-lg bottom-5 md:bottom-20 right-10 z-10"

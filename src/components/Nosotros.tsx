@@ -64,7 +64,6 @@ const Nosotros = () => {
                 <li>Congeladores</li>
                 <li>Estufas</li>
                 <li>Hornos</li>
-                <li>Minisplit</li>
                 <li>Microondas</li>
                 <li>Licuadoras</li>
               </ul>
