@@ -73,6 +73,7 @@ const Layout = () => (
     </div>
     <Footer container={true}>
       <Footer.Copyright href="/" by="Grupo Monyohu" year={2023} />
+      <Footer.Link href="https://www.tachyondevelopers.com/" target="_blank">Desarrollado por Tachyon</Footer.Link>
       <Footer.LinkGroup className="gap-5">
         <Footer.Link href="/">Inicio</Footer.Link>
         <Footer.Link href="/sedes">Sucursales</Footer.Link>
